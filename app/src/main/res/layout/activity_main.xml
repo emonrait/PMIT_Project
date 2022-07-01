@@ -10,8 +10,16 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_margin="15dp"
-        android:orientation="vertical">
+        android:orientation="vertical"
+        android:gravity="center">
+        <Button
 
+            android:layout_width="400px"
+            android:layout_height="120px"
+            android:text="next Page"
+            android:textColor="@color/black"
+            android:id="@+id/next_page"
+            />
         <ScrollView
             android:layout_width="match_parent"
             android:layout_height="match_parent">
